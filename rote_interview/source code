@@ -1,0 +1,49 @@
+ /******************************************************************************
+
+Welcome to GDB Online.
+  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
+  Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <stdio.h>
+//Store 10 ADC values in Position array from function ADC that reads ADC value using function Write
+int8_t Position[10];//Position array to be filled
+static int8_t* Write(int16_t val);//Takes value passed as argument and returns pointer pointing to that value
+int16_t ADC(void);//Function that reads ADC value
+int16_t ADC_out;
+int16_t* pointer_val
+int main()
+{
+    printf("Hello World");
+void main(){
+
+while(1)
+
+{
+
+val=adc();
+
+ADC_out=Write(val);
+
+position[*pointer_val++]=ADC_out;
+
+ 
+
+}
+
+static int16_t* Write(int16_ val)
+
+{
+
+int16_t *count;
+
+count=&val;
+
+return *count;
+
+ 
+
+}
+    return 0;
+}
